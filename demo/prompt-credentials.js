@@ -26,7 +26,7 @@ async function readyHandlerTwoFactor(myCloud) {
 
 }
 
-const sessionPath = "/tmp/icloud-session.json";
+const sessionPath = "./icloud-session2.json";
 
 module.exports = function login() {
   return new Promise(function(resolve, reject) {
